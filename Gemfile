@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 
 group :development do
-  gem 'sqlite3', '1.3.5'
+  gem 'mysql2'
 end
 
 
@@ -19,5 +19,5 @@ end
 gem 'jquery-rails', '2.0.2'
 
 group :production do
-  gem 'pg', '0.12.2'
+  gem 'pg'
 end
